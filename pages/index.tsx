@@ -25,6 +25,9 @@ export default function Page() {
       <a href="/api/dynamic-git?username=davidsonbpe" target="_blank">?username=davidsonbpe</a>
       <hr></hr>
       <a href="/api/static" target="_blank">static</a>
+      <hr></hr>
+      <a href="/api/dyimage?username=davidsonbpe" target="_blank">dyimage?username=davidsonbpe</a>
+      <hr></hr>
     </div>
   )
 }
