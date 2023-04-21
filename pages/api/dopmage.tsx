@@ -35,12 +35,12 @@ export default async function handler(req: NextRequest) {
         <img
           alt="avatar"
           width="256"
-          src={`https://github.com/${username}.png`}
+          src={`${username}`}
           style={{
             borderRadius: 128,
           }}
         />
-        <p>github.com/{username}</p>
+        
       </div>
     ),
     {

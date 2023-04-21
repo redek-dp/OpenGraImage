@@ -28,6 +28,8 @@ export default function Page() {
       <hr></hr>
       <a href="/api/dyimage?username=davidsonbpe" target="_blank">dyimage?username=davidsonbpe</a>
       <hr></hr>
+      <a href="/api/dopmage?username=davidsonbpe" target="_blank">dopmage?username=davidsonbpe</a>
+      <hr></hr>
     </div>
   )
 }
