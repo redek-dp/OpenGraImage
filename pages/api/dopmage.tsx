@@ -10,8 +10,8 @@ export default async function handler(req: NextRequest) {
   const username = searchParams.get('username')
   if (!username) {
     return new ImageResponse(<>{'Visit with "?username=vercel"'}</>, {
-      width: 700,
-      height: 700,
+      width: 512,
+      height: 512,
     })
   }
 
@@ -21,7 +21,7 @@ export default async function handler(req: NextRequest) {
         style={{
           fontSize: 40,
           color: 'black',
-          background: '#f6f6f6',
+          background: '#00000000',
           width: '100%',
           height: '100%',
           paddingTop: 50,
@@ -37,15 +37,15 @@ export default async function handler(req: NextRequest) {
           width="256"
           src={`${username}`}
           style={{
-            borderRadius: 128,
+            
           }}
         />
         
       </div>
     ),
     {
-      width: 700,
-      height: 700,
+      width: 512,
+      height: 512,
     }
   )
 }
