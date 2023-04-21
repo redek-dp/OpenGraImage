@@ -21,9 +21,9 @@ export default function Page() {
       </Head>
       <h1>A page with Open Graph Image.</h1>
       <a href="/api/dynamic-image?username=davidsonbpe" target="_blank">?username=davidsonbpe</a>
-      
+      <hr></hr>
       <a href="/api/dynamic-git?username=davidsonbpe" target="_blank">?username=davidsonbpe</a>
-      
+      <hr></hr>
       <a href="/api/static" target="_blank">static</a>
     </div>
   )
