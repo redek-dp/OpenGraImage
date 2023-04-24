@@ -31,7 +31,7 @@ export default async function handler(req: NextRequest) {
           fontFamily: 'Typewriter',
           paddingTop: '100px',
           paddingLeft: '50px',
-          lineHeight: '1.47em',
+          lineHeight: '1.80em',
         }}
       >
         {username}
