@@ -20,7 +20,9 @@ export default function Page() {
         />
       </Head>
       <h1>A page with Open Graph Image.</h1>
-      <a href="/api/fonte?open=Certamente%20que%20a%20bondade%20e%20a%20misericórdia%20me%20seguirão%20todos%20os%20dias%20da%20minha%20vida;%20e%20habitarei%20na%20casa%20do%20Senhor%20por%20longos%20dias.%20%20Salmos%2023:6." target="_blank">/fonte?open=Certamente%20que%20a%20bondade%20e%20a%20misericórdia%20me%20seguirão%20todos%20os%20dias%20da%20minha%20vida;%20e%20habitarei%20na%20casa%20do%20Senhor%20por%20longos%20dias.%20%20Salmos%2023:6.</a>
+      <a href="/api/fonte?open=Certamente%20que%20a%20bondade%20e%20a%20misericórdia%20me%20seguirão%20todos%20os%20dias%20da%20minha%20vida;%20e%20habitarei%20na%20casa%20do%20Senhor%20por%20longos%20dias.%20%20Salmos%2023:6." target="_blank">/fonte?open=Certamente....</a>
+      <hr></hr>
+      <a href="/api/iframe?open=dav7.pages.dev/d-framework/icon/512.png" target="_blank">iframe?open=dav7.pages.dev/d-framework/icon/512.png</a>
       <hr></hr>
       <a href="/api/dynamic-image?username=davidsonbpe" target="_blank">?username=davidsonbpe</a>
       <hr></hr>
@@ -31,8 +33,6 @@ export default function Page() {
       <a href="/api/dyimage?username=davidsonbpe" target="_blank">dyimage?username=davidsonbpe</a>
       <hr></hr>
       <a href="/api/dopmage?username=https://dav7.pages.dev/d-framework/icon/512.png" target="_blank">dopmage?username=https://dav7.pages.dev/d-framework/icon/512.png</a>
-      <hr></hr>
-      <a href="/api/iframe?username=dav7.pages.dev/d-framework/icon/512.png" target="_blank">iframe?username=dav7.pages.dev/d-framework/icon/512.png</a>
       <hr></hr>
     </div>
   )

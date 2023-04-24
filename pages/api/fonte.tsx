@@ -14,7 +14,7 @@ export default async function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl
   const open = searchParams.get('open')
   if (!open) {
-    return new ImageResponse(<>{'Visit with "?open=vercel"'}</>, {
+    return new ImageResponse(<>{'Visit with "?open=Conteudo"'}</>, {
       width: 540,
       height: 600,
     })
