@@ -30,6 +30,8 @@ export default function Page() {
       <hr></hr>
       <a href="/api/dopmage?username=https://dav7.pages.dev/d-framework/icon/512.png" target="_blank">dopmage?username=https://dav7.pages.dev/d-framework/icon/512.png</a>
       <hr></hr>
+      <a href="/api/iframe?username=https://dav7.pages.dev" target="_blank">iframe?username=https://dav7.pages.dev</a>
+      <hr></hr>
     </div>
   )
 }
