@@ -10,8 +10,8 @@ export default async function handler(req: NextRequest) {
   const username = searchParams.get('username')
   if (!username) {
     return new ImageResponse(<>{'Visit with "?username=vercel"'}</>, {
-      width: 700,
-      height: 700,
+      width: 1200,
+      height: 630,
     })
   }
 
@@ -19,33 +19,29 @@ export default async function handler(req: NextRequest) {
     (
       <div
         style={{
-          fontSize: 40,
-          color: 'black',
-          background: '#f6f6f6',
-          width: '100%',
-          height: '100%',
-          paddingTop: 50,
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          display: 'flex',
+
         }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          alt="avatar"
-          width="256"
-          src={`https://github.com/${username}.png`}
+        <iframe
+          frameborder="0"
+          src={`${username}`}
           style={{
-            borderRadius: 128,
+            color: 'black',
+            background: '#f6f6f6',
+            width: '100%',
+            height: '100%',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            display: 'flex',
           }}
         />
-        <p>github.com/{username}</p>
       </div>
     ),
     {
-      width: 700,
-      height: 700,
+      width: 1200,
+      height: 630,
     }
   )
 }
