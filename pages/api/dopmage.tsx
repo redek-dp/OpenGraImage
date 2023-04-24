@@ -24,7 +24,7 @@ export default async function handler(req: NextRequest) {
           background: '#fff',
           width: '100%',
           height: '100%',
-          paddingTop: 40,
+          paddingTop: 30,
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
