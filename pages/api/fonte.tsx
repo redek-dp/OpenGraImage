@@ -12,9 +12,9 @@ const font = fetch(new URL('../../assets/TYPEWR__.TTF', import.meta.url)).then(
 export default async function handler(req: NextRequest) {
   const fontData = await font
   const { searchParams } = req.nextUrl
-  const username = searchParams.get('username')
-  if (!username) {
-    return new ImageResponse(<>{'Visit with "?username=vercel"'}</>, {
+  const open = searchParams.get('open')
+  if (!open) {
+    return new ImageResponse(<>{'Visit with "?open=vercel"'}</>, {
       width: 540,
       height: 600,
     })
@@ -37,7 +37,7 @@ export default async function handler(req: NextRequest) {
           lineHeight: '3.20em',
         }}
       >
-        {username}
+        {open}
       </p>
     ),
     {
