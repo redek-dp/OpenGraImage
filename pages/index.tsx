@@ -28,7 +28,7 @@ export default function Page() {
       <hr></hr>
       <a href="/api/dyimage?username=davidsonbpe" target="_blank">dyimage?username=davidsonbpe</a>
       <hr></hr>
-      <a href="/api/dopmage?username=davidsonbpe" target="_blank">dopmage?username=davidsonbpe</a>
+      <a href="/api/dopmage?username=https://dav7.pages.dev/d-framework/icon/512.png" target="_blank">dopmage?username=https://dav7.pages.dev/d-framework/icon/512.png</a>
       <hr></hr>
     </div>
   )
