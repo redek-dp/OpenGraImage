@@ -27,13 +27,13 @@ export default async function handler(req: NextRequest) {
           backgroundColor: 'white',
           height: '100%',
           width: '100%',
-          fontSize: 100,
+          fontSize: 25,
           fontFamily: 'Typewriter',
           paddingTop: '100px',
           paddingLeft: '50px',
         }}
       >
-        {username}
+        <p>{username}</p>
       </div>
     ),
     {
