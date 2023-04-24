@@ -37,8 +37,8 @@ export default async function handler(req: NextRequest) {
       </p>
     ),
     {
-      width: 1200,
-      height: 630,
+      width: 700,
+      height: 700,
       fonts: [
         {
           name: 'Typewriter',
