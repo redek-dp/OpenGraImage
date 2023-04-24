@@ -42,7 +42,6 @@ export default async function handler(req: NextRequest) {
       fonts: [
         {
           name: 'Typewriter',
-          data: fontData,
           style: 'normal',
         },
       ],
