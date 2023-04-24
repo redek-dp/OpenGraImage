@@ -10,8 +10,8 @@ export default async function handler(req: NextRequest) {
   const username = searchParams.get('username')
   if (!username) {
     return new ImageResponse(<>{'Visit with "?username=vercel"'}</>, {
-      width: 1200,
-      height: 630,
+      width: 700,
+      height: 700,
     })
   }
 
@@ -23,8 +23,7 @@ export default async function handler(req: NextRequest) {
         }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <iframe
-          frameborder="0"
+        <img
           src={`${username}`}
           style={{
             color: 'black',
@@ -40,8 +39,8 @@ export default async function handler(req: NextRequest) {
       </div>
     ),
     {
-      width: 1200,
-      height: 630,
+      width: 700,
+      height: 700,
     }
   )
 }
