@@ -22,7 +22,7 @@ export default async function handler(req: NextRequest) {
 
   return new ImageResponse(
     (
-      <div
+      <p
         style={{
           backgroundColor: 'white',
           height: '100%',
@@ -33,8 +33,8 @@ export default async function handler(req: NextRequest) {
           paddingLeft: '50px',
         }}
       >
-        <p>{username}</p>
-      </div>
+        {username}
+      </p>
     ),
     {
       width: 1200,
