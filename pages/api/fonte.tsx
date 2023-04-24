@@ -15,7 +15,7 @@ export default async function handler(req: NextRequest) {
   const username = searchParams.get('username')
   if (!username) {
     return new ImageResponse(<>{'Visit with "?username=vercel"'}</>, {
-      width: 530,
+      width: 540,
       height: 600,
     })
   }
@@ -39,7 +39,7 @@ export default async function handler(req: NextRequest) {
       </p>
     ),
     {
-      width: 530,
+      width: 540,
       height: 600,
       fonts: [
         {
