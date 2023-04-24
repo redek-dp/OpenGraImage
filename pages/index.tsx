@@ -26,11 +26,11 @@ export default function Page() {
       <hr></hr>
       <a href="/api/dopmage?open=dav7.pages.dev/d-framework/icon/512.png" target="_blank">dopmage?open=dav7.pages.dev/d-framework/icon/512.png</a>
       <hr></hr>
+      <a href="/api/dyimage?username=davidsonbpe" target="_blank">dyimage?username=davidsonbpe</a>
+      <hr></hr>
       <a href="/api/dynamic-image?username=davidsonbpe" target="_blank">dynamic-image?username=davidsonbpe</a>
       <hr></hr>
       <a href="/api/static" target="_blank">static</a>
-      <hr></hr>
-      <a href="/api/dyimage?username=davidsonbpe" target="_blank">dyimage?username=davidsonbpe</a>
       <hr></hr>
       
     </div>
