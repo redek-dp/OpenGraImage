@@ -24,6 +24,7 @@ export default async function handler(req: NextRequest) {
     (
       <p
         style={{
+          margin: '0px',
           backgroundColor: 'white',
           backgroundImage: `url(https://cdn.pixabay.com/photo/2012/12/06/06/29/paper-68833_960_720.jpg)`,
           height: '100%',
