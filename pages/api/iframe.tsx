@@ -19,23 +19,26 @@ export default async function handler(req: NextRequest) {
     (
       <div
         style={{
-
+          color: 'black',
+          background: '#f6f6f6',
+          width: '100%',
+          height: '100%',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          display: 'flex',
         }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={`${username}`}
+          alt="avatar"
+          src={`https://${username}`}
           style={{
-            color: 'black',
-            background: '#f6f6f6',
             width: '100%',
             height: '100%',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            display: 'flex',
           }}
         />
+
       </div>
     ),
     {
