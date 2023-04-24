@@ -7,9 +7,9 @@ export const config = {
 
 export default async function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl
-  const username = searchParams.get('username')
-  if (!username) {
-    return new ImageResponse(<>{'Visit with "?username=vercel"'}</>, {
+  const open = searchParams.get('open')
+  if (!open) {
+    return new ImageResponse(<>{'Visit with "?open=Conteudo"'}</>, {
       width: 512,
       height: 512,
     })
@@ -19,12 +19,12 @@ export default async function handler(req: NextRequest) {
     (
       <div
         style={{
-          fontSize: 40,
+          
           color: 'black',
-          background: '#00000000',
+          background: '#fff',
           width: '100%',
           height: '100%',
-          paddingTop: 50,
+          paddingTop: 40,
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
@@ -35,7 +35,7 @@ export default async function handler(req: NextRequest) {
         <img
           alt="avatar"
           width="256"
-          src={`${username}`}
+          src={`https://${open}`}
           style={{
             
           }}
