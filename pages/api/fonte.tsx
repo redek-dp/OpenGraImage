@@ -33,6 +33,7 @@ export default async function handler(req: NextRequest) {
           fontFamily: 'Typewriter',
           paddingTop: '100px',
           paddingLeft: '50px',
+          paddingRight: '50px',
           lineHeight: '3.20em',
         }}
       >
