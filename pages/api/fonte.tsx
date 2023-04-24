@@ -26,7 +26,7 @@ export default async function handler(req: NextRequest) {
         style={{
           backgroundColor: 'white',
           backgroundImage: `url(https://cdn.pixabay.com/photo/2012/12/06/06/29/paper-68833_960_720.jpg)`,
-          backgroundSize: 'cover',
+          backgroundSize: '500',
           height: '100%',
           width: '100%',
           fontSize: 25,
