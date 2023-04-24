@@ -9,7 +9,7 @@ export default async function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl
   const username = searchParams.get('username')
   if (!username) {
-    return new ImageResponse(<>{'Visit with "?username=vercel"'}</>, {
+    return new ImageResponse(<>{'Visit with "?username=Conteudo"'}</>, {
       width: 700,
       height: 700,
     })
