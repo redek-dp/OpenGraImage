@@ -1,4 +1,5 @@
 import { ImageResponse } from '@vercel/og'
+import { NextRequest } from 'next/server'
 
 export const config = {
   runtime: 'edge',
@@ -8,8 +9,16 @@ const font = fetch(new URL('../../assets/TYPEWR__.TTF', import.meta.url)).then(
   (res) => res.arrayBuffer()
 )
 
-export default async function handler() {
+export default async function handler(req: NextRequest) {
   const fontData = await font
+  const { searchParams } = req.nextUrl
+  const username = searchParams.get('username')
+  if (!username) {
+    return new ImageResponse(<>{'Visit with "?username=vercel"'}</>, {
+      width: 700,
+      height: 700,
+    })
+  }
 
   return new ImageResponse(
     (
@@ -24,7 +33,7 @@ export default async function handler() {
           paddingLeft: '50px',
         }}
       >
-        Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida; e habitarei na casa do Senhor por longos dias.  Salmos 23:6.
+        {username}
       </div>
     ),
     {
