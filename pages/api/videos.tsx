@@ -30,8 +30,15 @@ export default async function handler(req: NextRequest) {
         }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          alt="avatar"
+          src={`https://${open}`}
+          style={{
+            width: '100%',
+            height: '100%',
+          }}
+        />
         
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/{open}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
       </div>
     ),
