@@ -21,7 +21,7 @@ export default async function handler(req: NextRequest) {
         style={{
           
           color: 'black',
-          background: '#fff',
+          background: '#2c2c3945',
           width: '100%',
           height: '100%',
           paddingTop: 5,
@@ -34,7 +34,7 @@ export default async function handler(req: NextRequest) {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           alt="avatar"
-          width="100"
+          width="110"
           src={`https://${open}`}
           style={{
             
