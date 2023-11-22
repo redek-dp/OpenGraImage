@@ -34,7 +34,7 @@ export default async function handler(req: NextRequest) {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           alt="avatar"
-          width="60"
+          width="100"
           src={`https://${open}`}
           style={{
             
