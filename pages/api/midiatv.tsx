@@ -20,7 +20,7 @@ export default async function handler(req: NextRequest) {
     (
       <div
         style={{
-          fontSize: `#${fots}`,
+          fontSize: `${fots}`,
           color: 'black',
           background: '#fff',
           width: '100%',
