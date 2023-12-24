@@ -31,18 +31,17 @@ export default async function handler(req: NextRequest) {
           display: 'flex',
         }}
       >
-        <div
+        <span
           style={{
             fontSize: 60,
             marginTop: 0,
-            lineHeight: 1.8,
-            borderRadius: 128,
+            borderRadius: 50,
             color: '#fff',
             background: 'black',
           }}
         >
           TV
-        </div>
+        </span>
         {open}
       </div>
       
