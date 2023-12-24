@@ -35,7 +35,8 @@ export default async function handler(req: NextRequest) {
           style={{
             fontSize: 60,
             textAlign: 'left',
-            padding: 5,
+            width: '50px',
+            height: '50px',
             borderRadius: 50,
             color: '#fff',
             background: 'black',
