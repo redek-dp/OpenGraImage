@@ -31,8 +31,6 @@ export default async function handler(req: NextRequest) {
           display: 'flex',
         }}
       >
-        {open}
-        
         <div
           style={{
             fontSize: 60,
@@ -42,8 +40,9 @@ export default async function handler(req: NextRequest) {
         >
           TV
         </div>
-
+        {open}
       </div>
+      
     ),
     {
       width: 512,
