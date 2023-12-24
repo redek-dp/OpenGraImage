@@ -37,6 +37,8 @@ export default async function handler(req: NextRequest) {
             marginTop: 0,
             lineHeight: 1.8,
             borderRadius: 128,
+            color: '#fff',
+            background: 'black',
           }}
         >
           TV
