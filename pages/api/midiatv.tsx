@@ -8,6 +8,7 @@ export const config = {
 export default async function handler(req: NextRequest) {
   const { searchParams } = req.nextUrl
   const open = searchParams.get('open')
+  const fots = searchParams.get('fots')
   if (!open) {
     return new ImageResponse(<>{'Visit with "?open=Conteudo"'}</>, {
       width: 512,
@@ -19,7 +20,7 @@ export default async function handler(req: NextRequest) {
     (
       <div
         style={{
-          fontSize: 150,
+          fontSize: `#${fots}`,
           color: 'black',
           background: '#fff',
           width: '100%',
