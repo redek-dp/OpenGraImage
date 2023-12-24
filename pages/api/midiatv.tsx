@@ -35,7 +35,7 @@ export default async function handler(req: NextRequest) {
           style={{
             fontSize: 60,
             alignItems: 'left',
-            marginTop: 10,
+            marginTop: 30,
             lineHeight: 1.8,
           }}
         >
