@@ -21,8 +21,8 @@ export default async function handler(req: NextRequest) {
       <div
         style={{
           fontSize: `${fots}`,
-          color: 'black',
-          background: '#0000002e',
+          color: '#fff5',
+          background: '#2c2c3945',
           width: '100%',
           height: '100%',
           paddingTop: 5,
@@ -40,8 +40,8 @@ export default async function handler(req: NextRequest) {
             height: '60px',
             padding: 13,
             borderRadius: 50,
-            color: '#fff',
-            background: 'black',
+            color: '#0005',
+            background: '#fff5',
             marginBottom: 5,
           }}
         >
