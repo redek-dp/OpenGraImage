@@ -22,7 +22,7 @@ export default async function handler(req: NextRequest) {
         style={{
           fontSize: `${fots}`,
           color: 'black',
-          background: '#fff',
+          background: '#0000002e',
           width: '100%',
           height: '100%',
           paddingTop: 5,
