@@ -19,7 +19,7 @@ export default async function handler(req: NextRequest) {
     (
       <div
         style={{
-          fontSize: '100%',
+          fontSize: 150,
           color: 'black',
           background: '#fff',
           width: '100%',
@@ -41,6 +41,7 @@ export default async function handler(req: NextRequest) {
             borderRadius: 50,
             color: '#fff',
             background: 'black',
+            marginBottom: 5,
           }}
         >
           TV
