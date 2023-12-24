@@ -34,6 +34,7 @@ export default async function handler(req: NextRequest) {
         <span
           style={{
             fontSize: 60,
+            textAlign: 'left',
             marginTop: 0,
             borderRadius: 50,
             color: '#fff',
