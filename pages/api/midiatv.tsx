@@ -34,6 +34,7 @@ export default async function handler(req: NextRequest) {
         <span
           style={{
             fontSize: 60,
+            position: 'fixed',
             textAlign: 'center',
             width: '100px',
             height: '100px',
