@@ -34,8 +34,9 @@ export default async function handler(req: NextRequest) {
         <div
           style={{
             fontSize: 60,
-            marginTop: 5,
+            marginTop: 0,
             lineHeight: 1.8,
+            borderRadius: 128,
           }}
         >
           TV
