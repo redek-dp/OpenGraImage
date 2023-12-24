@@ -34,7 +34,8 @@ export default async function handler(req: NextRequest) {
         <div
           style={{
             fontSize: 60,
-            marginTop: 30,
+            alignItems: 'left',
+            marginTop: 10,
             lineHeight: 1.8,
           }}
         >
