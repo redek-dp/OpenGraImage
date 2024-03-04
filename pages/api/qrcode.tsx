@@ -32,7 +32,7 @@ export default async function handler(req: NextRequest) {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           alt="avatar"
-          src={`https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&qzone=2&margin=0&size=400x400&ecc=L&data=${open}`}
+          src={`https://qrdapi.vercel.app/qr?color=black&background=white&size=10&content=${open}`}
           style={{
             width: '100%',
             height: '100%',
