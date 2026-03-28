@@ -38,6 +38,8 @@ export default function Page() {
       <hr></hr>
       <a href="/api/dynamic-image?username=davidsonbpe" target="_blank">dynamic-image?username=davidsonbpe</a>
       <hr></hr>
+      <a href="/api/midiard?open=DecomStudio&fots=12" target="_blank">midiard?open=DecomStudio&fots=12</a>
+      <hr></hr>
       
     </div>
   )
