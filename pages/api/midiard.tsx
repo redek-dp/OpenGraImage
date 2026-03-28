@@ -11,8 +11,8 @@ export default async function handler(req: NextRequest) {
   const fots = searchParams.get('fots')
   if (!open) {
     return new ImageResponse(<>{'Visit with "?open=Conteudo"'}</>, {
-      width: 150,
-      height: 150,
+      width: 100,
+      height: 100,
     })
   }
 
