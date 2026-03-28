@@ -22,7 +22,7 @@ export default async function handler(req: NextRequest) {
         style={{
           fontSize: `${fots}`,
           color: '#fff5',
-          background: '#2121aa45',
+          background: '#2c2c3945',
           width: '100%',
           height: '100%',
           paddingTop: 5,
@@ -41,7 +41,7 @@ export default async function handler(req: NextRequest) {
             padding: 12,
             borderRadius: 50,
             color: '#0005',
-            background: 'rgba(79, 179, 22, 0.33)',
+            background: '#fff5',
             marginBottom: 4,
           }}
         >
