@@ -38,11 +38,11 @@ export default async function handler(req: NextRequest) {
             textAlign: 'center',
             width: '50px',
             height: '50px',
-            padding: 8,
+            padding: 10,
             borderRadius: 50,
             color: '#0005',
             background: '#fff5',
-            marginBottom: 3,
+            marginBottom: 4,
           }}
         >
           RD
