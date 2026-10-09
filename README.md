@@ -1,5 +1,5 @@
 
-<img src="https://i.ibb.co/gZS7h2D/DS.png" min-width="150px" max-width="150px" width="150px" align="right" alt="">
+<img src="https://www.svgrepo.com/show/362175/tag-alt.svg" min-width="150px" max-width="150px" width="150px" align="right" alt="">
 
 # OPENGRAIMAGE | IMAGE GENERATION.
 
